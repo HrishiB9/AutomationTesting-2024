@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+G:\Automation Testing\Eclipse workspace\.metadata\.plugins\org.eclipse.jdt.core
+169371171.index
+1189343029.index
+1865797976.index
