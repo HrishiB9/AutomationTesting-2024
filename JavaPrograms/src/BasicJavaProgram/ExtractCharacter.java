@@ -9,12 +9,11 @@ public class ExtractCharacter {
 		
 		for(char ch: str.toCharArray())
 		{
-			if(Character.isLetter(ch));
+			if(Character.isAlphabetic(ch));
 			{
 				System.out.print(ch+" ");
 			}
 		}
 		
 	}
-
 }

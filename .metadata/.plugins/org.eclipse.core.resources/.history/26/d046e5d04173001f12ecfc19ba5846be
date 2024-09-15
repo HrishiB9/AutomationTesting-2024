@@ -1,0 +1,21 @@
+package BasicJavaProgram;
+
+import java.util.Scanner;
+
+public class CharacterCounts 
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		System.out.print("Please enter String:");
+		Scanner str = new Scanner(System.in);
+		String sent = str.nextLine();
+		
+		System.out.println("Input String is: "+sent);
+		
+		
+
+	}
+
+}

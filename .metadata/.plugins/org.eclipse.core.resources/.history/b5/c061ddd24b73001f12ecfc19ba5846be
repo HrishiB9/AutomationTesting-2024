@@ -1,0 +1,42 @@
+package BasicJavaProgram;
+
+import java.util.Scanner;
+
+public class FrequencyCharacters {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		System.out.println("Please enter the String: ");
+		Scanner str = new Scanner(System.in);
+		String sent = str.nextLine();
+		
+		int freq[] = new int [sent.length()];
+		int i, j;
+		
+		char str1[] = sent.toCharArray();
+		System.out.println("Frequency of characters as per below:");
+		for(i=0; i<sent.length(); i++)
+		{
+			freq[i]=1;
+			
+			for(j=i+1; j<sent.length(); j++)
+			{
+				if(str1[i]==str1[j])
+				{
+					freq[i]++;
+					str1[j]=0;
+					
+				}
+				
+			}
+			if(str1[i]!=' ')
+			{
+			System.out.println(str1[i]+ ":"+ freq[i]);
+			}
+		}
+	
+	}
+
+}
